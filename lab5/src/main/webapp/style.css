@@ -1,0 +1,35 @@
+body {
+    font-family: system-ui, sans-serif;
+    max-width: 720px;
+    margin: 32px auto;
+    padding: 0 16px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+input[type="number"] {
+    width: 68px;
+    padding: 5px;
+    margin: 2px;
+}
+
+table {
+    margin: 10px auto;
+}
+
+th {
+    font-weight: 500;
+    color: #555;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 16px 0;
+}
+
+button {
+    padding: 6px 14px;
+    margin-right: 6px;
+    cursor: pointer;
+}
