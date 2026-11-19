@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: #f8f9fa;
+    color: #1e293b;
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 680px;
+    margin: 48px auto;
+    padding: 0 20px;
+}
+
+h1 {
+    font-size: 1.65rem;
+    margin: 0 0 8px;
+}
+
+h2 {
+    font-size: 1.1rem;
+    margin: 0 0 12px;
+}
+
+p {
+    margin: 6px 0;
+}
+
+.subtitle {
+    color: #475569;
+    margin-bottom: 24px;
+}
+
+.nav {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.nav a {
+    color: #475569;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+
+.nav a:hover {
+    color: #0f172a;
+    font-weight: 600;
+}
+
+.hub-links {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hub-links a {
+    display: block;
+    padding: 14px 16px;
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    color: #0f172a;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.hub-links a:hover {
+    border-color: #94a3b8;
+}
+
+.card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    padding: 18px 20px;
+    margin-bottom: 16px;
+}
+
+.clean-list,
+.project-list {
+    margin: 0;
+    padding-left: 18px;
+}
+
+.clean-list li,
+.project-list li {
+    margin-bottom: 6px;
+}
+
+.project-list a {
+    color: #0f172a;
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 1px solid #cbd5e1;
+}
+
+.project-list a:hover {
+    border-bottom-color: #0f172a;
+}
+
+.project-list .desc {
+    display: block;
+    font-size: 0.9rem;
+    color: #475569;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+input,
+textarea {
+    font: inherit;
+    padding: 8px 10px;
+    border: 1px solid #cbd5e1;
+    border-radius: 4px;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: #475569;
+}
+
+button[type="submit"] {
+    align-self: flex-start;
+    padding: 8px 16px;
+    font: inherit;
+    font-size: 0.9rem;
+    background: #1e293b;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background: #334155;
+}
+
+.result {
+    margin-top: 16px;
+    padding: 12px 14px;
+    background: #f1f5f9;
+    border-left: 3px solid #1e293b;
+    font-size: 0.92rem;
+}
+
+.error {
+    color: #b91c1c;
+    font-size: 0.9rem;
+}
+
+.meta {
+    margin-top: 20px;
+    font-size: 0.85rem;
+    color: #64748b;
+}
